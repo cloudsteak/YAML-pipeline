@@ -1,0 +1,14 @@
+{
+    "name": "Pipeline-YAML",
+    "version": "1.0.0",
+    "description": "Azure DevOps Pipeline with YAML",
+    "private": true,
+    "scripts": {
+        "test": "echo \"No tests yet...\""
+    },
+    "dependencies": {},
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/cloudsteak/yaml-pipeline"
+    }
+}
