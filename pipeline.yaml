@@ -14,9 +14,9 @@ steps:
 - script: |
     npm install
     npm build
-  displayName: Install required packages - ${MY_ENV_VAR}
+  displayName: Install required packages - $(MY_ENV_VAR)
 
 # Start to execure startPipeline.json
 - script: |
     node startPipeline.js
-  displayName: Execute my code - ${MY_ENV_VAR}
+  displayName: Execute my code - $(MY_ENV_VAR)
